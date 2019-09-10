@@ -281,7 +281,7 @@ footer {
         padding: 0%;
     
         
-      }
+    }
     .top-content {
         display: flex;
         align-items: flex-end;
@@ -295,12 +295,12 @@ footer {
         margin-top: 50px;
         padding-top: 50px;
         
-       }
+    }
        .main-content .middle-img {
         margin-top: 20px;
-      }
+    }
 
-  }
+}
 @media only screen and (max-width: 500px) {
     .container {
         display: flex;
@@ -326,6 +326,8 @@ footer {
         flex-direction: column;
         align-items: center;     
         width: 400px;   
+        margin-bottom: 6%;
+      
     }
     /* .cta .cta-text {
         display: flex;
@@ -335,14 +337,19 @@ footer {
         padding: none;
         border-bottom: 2px solid black; */
     
-    }
+    /* } */
+    
     .cta-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: none;
-        padding: none;
+        margin-bottom: 15%;
+        margin-top: 30%;
+        padding-bottom: 20%;
         border-bottom: 2px solid black;
+        width: 400px;
+        margin-left: 24%;
+        height: 400px
     
     }
     header nav a {
@@ -350,35 +357,40 @@ footer {
         align-content: space-between;
         justify-content: center;
         border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
         padding: 2%;
         width: 400px;
-        font-size: 17px
+        font-size: 19px;
+        margin-right: 0%
         
     }
-    .top-content {
-        border: 1px solid black;
-        height: 550px
+    
+    div .text-content {
+        padding: none;
     }
+
     .main-content .top-content {
         display: flex;
         flex-direction: column;
         padding: none;
         margin: none;
+        margin-top: 5%
         /* justify-content: center;
         width: 400px; */
         
     }
     .main-content .top-content .text-content {
         width: 400px;
-        border: 1px solid black;
-        padding: none;
-        margin: none;
+        padding: 0;
+        margin-top: 10%;
+        border-top: none;
     }
   
     .main-content .bottom-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0;
         width: 400px;
        
     }
@@ -393,8 +405,7 @@ footer {
         align-items: center;
         padding: none;
         margin: none;
-        
-        
+            
     }
     .middle-img {
         width: 400px
